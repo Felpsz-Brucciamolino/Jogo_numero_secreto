@@ -14,7 +14,7 @@
 
 
 
-let limite_numeros = 50;
+let limite_numeros = 100;
 let lista_numeros = [];
 
 let tentativas = 0
@@ -61,7 +61,7 @@ function exibir_texto_inicial() {
     // responsiveVoice.speak(`${titulo}. ${paragrafo}`, "Brazilian Portuguese Female", {rate: 1.2});
     //--------------------------------------------------------------------------------------------------
     exibir_texto (`h1`,`Jogo do número secreto, você tem 5 vidas`);
-    exibir_texto (`p`,`Jogo só para os verdadeiros☺`);
+    exibir_texto (`p`,`Números INT de 0 até ${numero_aleatorio}`);
 }
 
 
