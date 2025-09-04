@@ -61,7 +61,7 @@ function exibir_texto_inicial() {
     // responsiveVoice.speak(`${titulo}. ${paragrafo}`, "Brazilian Portuguese Female", {rate: 1.2});
     //--------------------------------------------------------------------------------------------------
     exibir_texto (`h1`,`Jogo do número secreto, você tem 5 vidas`);
-    exibir_texto (`p`,`Números INT de 0 até ${numero_aleatorio}`);
+    exibir_texto (`p`,`Números INT de 0 até ${limite_numeros + 1}`);
 }
 
 
